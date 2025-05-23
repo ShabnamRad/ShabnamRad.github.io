@@ -2,11 +2,13 @@
 ---
 
 @inproceedings{DBLP:conf/tacas/GhasemiradSLMB25,
+  abbr = {TACAS 2025},
   author       = {Shabnam Ghasemirad and
                   Christoph Sprenger and
                   Si Liu and
                   Luca Multazzu and
                   David A. Basin},
+  bibtex_show = {true},
   editor       = {Arie Gurfinkel and
                   Marijn Heule},
   title        = {Pushing the Limit: Verified Performance-Optimal Causally-Consistent
@@ -21,21 +23,28 @@
   pages        = {43--62},
   publisher    = {Springer},
   year         = {2025},
-  url          = {https://doi.org/10.1007/978-3-031-90660-2\_3}
+  url          = {https://doi.org/10.1007/978-3-031-90660-2\_3},
+  html         = {https://doi.org/10.1007/978-3-031-90660-2\_3},
+  selected     = {true}
 }
 
 @article{DBLP:journals/corr/abs-2503-06284,
+  abbr = {VLDB 2025},
+	arxiv = {2503.06284},
   author       = {Shabnam Ghasemirad and
                   Si Liu and
                   Christoph Sprenger and
                   Luca Multazzu and
                   David A. Basin},
-  title        = {VerIso: Verifiable Isolation Guarantees for Database Transactions},
-  journal      = {CoRR},
-  volume       = {abs/2503.06284},
+  title        = {{VerIso}: Verifiable Isolation Guarantees for Database Transactions},
+  bibtex_show  = {true},
+  journal      = {Proc. {VLDB} Endow.},
+  keywords     = {distributed database systems, transaction processing, consistency models},
+  volume       = {18},
   year         = {2025},
   url          = {https://doi.org/10.48550/arXiv.2503.06284},
-  doi          = {10.48550/ARXIV.2503.06284},
-  eprinttype    = {arXiv},
-  eprint       = {2503.06284}
+  html         = {https://doi.org/10.48550/arXiv.2503.06284},
+  selected     = {true}
+  abstract     = {Isolation bugs, stemming especially from design-level defects, have been repeatedly found in carefully designed and extensively tested production databases over decades. In parallel, various frameworks for modeling database transactions and reasoning about their isolation guarantees have been developed. What is missing however is a mathematically rigorous and systematic framework with tool support for formally verifying a wide range of such guarantees for all possible system behaviors. We present the first such framework, VerIso, developed within the theorem prover Isabelle/HOL. To showcase its use in verification, we model the strict two-phase locking concurrency control protocol and verify that it provides strict serializability isolation guarantee. Moreover, we show how VerIso helps identify isolation bugs during protocol design. We derive new counterexamples for the TAPIR protocol from failed attempts to prove its claimed strict serializability. In particular, we show that it violates a much weaker isolation level, namely, atomic visibility.},
+  note = {{To} appear.}
 }
