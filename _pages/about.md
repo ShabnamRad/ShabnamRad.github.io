@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student in Information Security Group at ETH Zurich
+subtitle: >
+  <p>PhD Student | Information Security | Computer Science | ETH Zurich</p>
+  &nbsp;
 
 profile:
   align: right
