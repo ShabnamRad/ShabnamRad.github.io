@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Shabnam Ghasemirad",
-    "position": "PhD Student at Information Security Group, Deparment of Comuter Science, ETH Zurich",
+    "label": "PhD Student at Information Security Group, Deparment of Comuter Science, ETH Zurich",
     "image": "",
     "email": "shabnam.ghasemirad <at> inf.ethz.ch",
     "phone": "",
@@ -21,15 +21,28 @@
       }
     ]
   },
-  "work": [
+  "interests": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Formal Verification",
+      "icon": "fa-solid fa-check",
+      "keywords": [
+        "Protocol Verification",
+        "Isabelle/HOL",
+        "Refinement",
+        "Formal Methods",
+        "Foundations of Programming"
+      ]
+    },
+    {
+      "name": "Distrbited Database Systems",
+      "icon": "fa-solid fa-database",
+      "keywords": [
+        "Concurrency Control Protocols",
+        "Isolation Guarantees",
+        "Database Transactions",
+        "Data Management",
+        "Distributed Systems"
+      ]
     }
   ],
   "education": [
@@ -37,117 +50,196 @@
       "institution": "ETH Zurich",
       "location": "Zurich, Switzerland",
       "url": "https://ethz.ch/",
-      "area": "Software Development",
+      "area": "Computer Science",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
+      "startDate": "Nov 2022",
+      "endDate": "Present"
+    },
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "institution": "ETH Zurich",
+      "location": "Zurich, Switzerland",
+      "url": "https://ethz.ch/",
+      "area": "Computer Science",
+      "major": "Secure and Reliable Systems",
+      "minor": "Data Management",
+      "studyType": "M.Sc.",
+      "startDate": "Sep 2020",
+      "endDate": "Nov 2022",
+      "score": "5.49/6",
+      "courses": ["Formal Methods in Information Security (6)", "Program Verification (5.75)", "Data Management Systems (5.75)", "Informal Methods (5.75)", "Information Security Lab (6)"]
+    },
+    {
+      "institution": "Sharif University of Technology",
+      "location": "Tehran, Iran",
+      "url": "https://sharif.edu/",
+      "area": "Computer Engineering",
+      "major": "Software",
+      "studyType": "B. Sc.",
+      "startDate": "Sep 2015",
+      "endDate": "Feb 2020",
+      "score": "19.01/20"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "VerIso: Verifiable Isolation Guarantees for Database Transactions",
+      "publisher": "Proc. VLDB Endow., 2025",
+      "releaseDate": "2025",
+      "authors": "Shabnam Ghasemirad, Si Liu, Christoph Sprenger, Luca Multazzu, and David Basin"
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Pushing the Limit: Verified Performance-Optimal Causally-Consistent Database Transactions",
+      "publisher": "TACAS 2025, as Part of ETAPS 2025",
+      "authors": "Shabnam Ghasemirad, Christoph Sprenger, Si Liu, Luca Multazzu, and David Basin"
     }
   ],
-  "skills": [
+  "projects": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Master’s Thesis, ETH Zurich",
+      "summary": "Mechanized Data Consistency Models for Distributed Database Transactions",
+      "startDate": "April 2022",
+      "endDate": "October 2022",
+      "highlights": "Supervisors: Dr. Christoph Sprenger, Dr. Si Liu, Prof. David Basin"
+    },
+    {
+      "name": "Master’s Semester Project, ETH Zurich",
+      "summary": "Modular Reasoning about Distributed Systems in Igloo",
+      "startDate": "February 2021",
+      "endDate": "June 2021",
+      "highlights": "Supervisors: Dr. Christoph Sprenger, Dr. Si Liu, Prof. David Basin"
+    },
+    {
+      "name": "Bachelor’s Thesis, Sharif University of Technology",
+      "summary": "Strategy Design for Expert Aggregation to Predict Stock Market",
+      "startDate": "July 2019",
+      "endDate": "December 2019",
+      "highlights": "Supervisor: Dr. MohammadAmin Fazli, Algorithms & Systems Design Group"
+    }
+  ],
+  "work": [
+    {
+      "name": "Max Planck Institute for Software Systems (MPI-SWS)",
+      "position": "Research Intern",
+      "url": "https://people.mpi-sws.org/~dreyer/research.html",
+      "startDate": "July 2019",
+      "endDate": "September 2019",
+      "summary": "A Fine-Grained Concurrent Queue Verification in Iris/Coq Separation Logic Framework",
+      "highlights": ["Supervisor: Prof. Derek Dreyer, Foundations of Programming Group"]
+    },
+    {
+      "name": "EPFL (´Ecole Polytechnique F´ed´erale de Lausanne)",
+      "position": "Research Intern",
+      "startDate": "June 2018",
+      "endDate": "December 2018",
+      "summary": "An Improved Materialization Algorithm for DBToaster",
+      "highlights": ["Supervisor: Prof. Amir Shaikhha, Data Analysis Theory and Applications Lab"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "SNSF (Swiss National Science Foundation) grant’s Employee (PhD Candidate) for the Project “Formal Verification of Isolation Guarantees in Database Systems”",
+      "date": "2024",
+      "awarder": "SNSF",
+      "url": "https://data.snf.ch/grants/grant/10003120"
+    },
+    {
+      "title": "Direct Doctorate position and scholarship",
+      "date": "2020",
+      "awarder": "ETH Zurich"
+    },
+    {
+      "title": "Ranked 8th in Cumulative GPA in the Department of Computer Engineering",
+      "date": "2019",
+      "summary": "Among about 130 B.Sc.students of the department, class of 2019 students"
+    },
+    {
+      "title": "Ranked 10th in National Student Olympiad for Computer Engineering",
+      "date": "2019"
+    },
+    {
+      "title": "Ranked 81st in Iranian National University Entrance Exam for B.Sc degree",
+      "date": "2015",
+      "summary": "Among about 300,000 students majoring in Mathematics & Physics program"
     }
   ],
   "languages": [
     {
-      "language": "Persian",
-      "fluency": "Native",
-      "icon": ""
-    },
-    {
       "language": "English",
-      "fluency": "C1, TOEFL: 109",
+      "fluency": "Proficient(C1), TOEFL: 109",
       "icon": ""
     },
     {
       "language": "German",
-      "fluency": "B2",
+      "fluency": "Upper Intermediate (B2)",
       "icon": ""
     },
     {
       "language": "French",
-      "fluency": "A2",
+      "fluency": "Pre-Intermediate (A2)",
+      "icon": ""
+    },
+    {
+      "language": "Persian",
+      "fluency": "Native Speaker",
       "icon": ""
     }
   ],
-  "interests": [
+  "skills": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Theorem Provers",
+      "level": "",
+      "icon": "fa-solid fa-check",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Provers: Isabelle/HOL (expert)",
+        "Rocq (Intermediate)",
+        "Tamarin (Intermediate)"
+      ]
+    },
+    {
+      "name": "Distrbited Database Systems",
+      "level": "",
+      "icon": "fa-solid fa-database",
+      "keywords": [
+        "SQL & RDBMSs (PostgreSQL, MySQL, SQLite)", 
+        "JSONiq", 
+        "Spark"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "icon": "fa-solid fa-laptop-code",
+      "keywords": [
+        "Java", "Scala", "OCaml", "Python", "C/C++"
+      ]
+    },
+    {
+      "name": "Web & Tools",
+      "level": "",
+      "icon": "fa-solid fa-magnifying-glass",
+      "keywords": [
+        "Git", "LATEX", "Django", "ReactJs", "JavaScript", "HTML & CSS/SCSS"
+      ]
+    },
+    {
+      "name": "Arts and Sports",
+      "level": "",
+      "icon": "fa-solid fa-palette",
+      "keywords": [
+        "Professional Classical Violin", "Piano", "Choir", "Ballet"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Dr. Christoph Sprenger",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": ""
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Prof. David Basin",
+      "icon": "fa-solid fa-laptop",
+      "reference": ""
     }
   ]
 }
