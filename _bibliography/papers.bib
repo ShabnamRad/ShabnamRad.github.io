@@ -26,13 +26,13 @@
   url          = {https://doi.org/10.1007/978-3-031-90660-2\_3},
   html         = {https://doi.org/10.1007/978-3-031-90660-2\_3},
   selected     = {true},
+  abstract     = {Modern web services crucially rely on high-performance distributed databases, where concurrent transactions are isolated from each other using concurrency control protocols. Relaxed isolation levels, which permit more complex concurrent behaviors than strong levels like serializability, are used in practice for higher performance and availability. \par In this paper, we present Eiger-PORT+, a concurrency control protocol that achieves a strong form of causal consistency, called TCCv (Transactional Causal Consistency with convergence). We show that Eiger-PORT+ also provides performance-optimal read transactions in the presence of transactional writes, thus refuting an open conjecture that this is impossible for TCCv. We also deductively verify that Eiger-PORT+ satisfies this isolation level by refining an abstract model of transactions. This yields the first deductive verification of a complex concurrency control protocol. Furthermore, we conduct a performance evaluation showing Eiger-PORT+ ’s superior performance over the state-of-the-art.},
   pdf          = {epplus_tacas25_springer.pdf},
   poster       = {poster_0904_ghasemirad.pdf}
 }
 
 @article{DBLP:journals/corr/abs-2503-06284,
   abbr = {VLDB 2025},
-	arxiv = {2503.06284},
   author       = {Shabnam Ghasemirad and
                   Si Liu and
                   Christoph Sprenger and
@@ -44,10 +44,28 @@
   keywords     = {distributed database systems, transaction processing, consistency models},
   volume       = {18},
   year         = {2025},
-  url          = {https://doi.org/10.48550/arXiv.2503.06284},
-  html         = {https://doi.org/10.48550/arXiv.2503.06284},
+  url          = {https://vldb.org/pvldb/volumes/18/paper/VerIso%3A%20Verifiable%20Isolation%20Guarantees%20for%20Database%20Transactions},
+  html         = {https://vldb.org/pvldb/volumes/18/paper/VerIso%3A%20Verifiable%20Isolation%20Guarantees%20for%20Database%20Transactions},
   selected     = {true},
   abstract     = {Isolation bugs, stemming especially from design-level defects, have been repeatedly found in carefully designed and extensively tested production databases over decades. In parallel, various frameworks for modeling database transactions and reasoning about their isolation guarantees have been developed. What is missing however is a mathematically rigorous and systematic framework with tool support for formally verifying a wide range of such guarantees for all possible system behaviors. We present the first such framework, VerIso, developed within the theorem prover Isabelle/HOL. To showcase its use in verification, we model the strict two-phase locking concurrency control protocol and verify that it provides strict serializability isolation guarantee. Moreover, we show how VerIso helps identify isolation bugs during protocol design. We derive new counterexamples for the TAPIR protocol from failed attempts to prove its claimed strict serializability. In particular, we show that it violates a much weaker isolation level, namely, atomic visibility.},
-  note = {{To} appear.},
-  pdf          = {VLDB2025_final.pdf}
+  pdf          = {p1362-ghasemirad.pdf}
+}
+
+@article{DBLP:journals/corr/abs-2212-10307,
+  abbr         = {CoRR 2022},
+  author       = {Amir Shaikhha and
+                  Mathieu Huot and
+                  Shabnam Ghasemirad and
+                  Andrew W. Fitzgibbon and
+                  Simon Peyton Jones and
+                  Dimitrios Vytiniotis},
+  title        = {Efficient and Sound Differentiable Programming in a Functional Array-Processing
+                  Language},
+  arxiv        = {2212.10307},
+  bibtex_show  = {true},
+  journal      = {CoRR},
+  volume       = {abs/2212.10307},
+  year         = {2022},
+  url          = {https://doi.org/10.48550/arXiv.2212.10307},
+  html         = {https://doi.org/10.48550/arXiv.2212.10307}
 }
