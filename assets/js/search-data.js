@@ -38,6 +38,9 @@ ninja.data = [{
             },},{id: "news-i-started-my-master-studies-in-computer-science-majoring-in-reliable-and-secure-systems-minoring-in-data-management-at-eth-zurich-direct-doctorate-in-computer-science-program",
           title: 'I started my master studies in computer science, majoring in reliable and secure...',
           description: "",
+          section: "News",},{id: "news-i-started-my-semester-project-titled-modular-reasoning-in-igloo-in-the-information-security-group-of-eth-zurich-led-by-prof-david-basin-my-supervisors-are-dr-christoph-sprenger-and-dr-si-liu",
+          title: 'I started my semester project titled “Modular Reasoning in Igloo” in the information...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
