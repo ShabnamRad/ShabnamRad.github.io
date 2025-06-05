@@ -52,8 +52,7 @@
       "url": "https://ethz.ch/",
       "area": "Computer Science",
       "studyType": "PhD",
-      "startDate": "Nov 2022",
-      "endDate": "Present"
+      "startDate": "Nov 2022"
     },
     {
       "institution": "ETH Zurich",
@@ -62,7 +61,7 @@
       "area": "Computer Science",
       "major": "Secure and Reliable Systems",
       "minor": "Data Management",
-      "studyType": "M.Sc.",
+      "studyType": "MSc",
       "startDate": "Sep 2020",
       "endDate": "Nov 2022",
       "score": "5.49/6",
@@ -74,7 +73,7 @@
       "url": "https://sharif.edu/",
       "area": "Computer Engineering",
       "major": "Software",
-      "studyType": "B. Sc.",
+      "studyType": "BSc",
       "startDate": "Sep 2015",
       "endDate": "Feb 2020",
       "score": "19.01/20"
@@ -84,12 +83,13 @@
     {
       "name": "VerIso: Verifiable Isolation Guarantees for Database Transactions",
       "publisher": "Proc. VLDB Endow., 2025",
-      "releaseDate": "2025",
+      "releaseDate": "January 2025",
       "authors": "Shabnam Ghasemirad, Si Liu, Christoph Sprenger, Luca Multazzu, and David Basin"
     },
     {
       "name": "Pushing the Limit: Verified Performance-Optimal Causally-Consistent Database Transactions",
       "publisher": "TACAS 2025, as Part of ETAPS 2025",
+      "releaseDate": "May 2025",
       "authors": "Shabnam Ghasemirad, Christoph Sprenger, Si Liu, Luca Multazzu, and David Basin"
     }
   ],
@@ -97,23 +97,23 @@
     {
       "name": "Master’s Thesis, ETH Zurich",
       "summary": "Mechanized Data Consistency Models for Distributed Database Transactions",
-      "startDate": "April 2022",
-      "endDate": "October 2022",
-      "highlights": "Supervisors: Dr. Christoph Sprenger, Dr. Si Liu, Prof. David Basin"
+      "startDate": "Apr 2022",
+      "endDate": "Oct 2022",
+      "highlights": ["Supervisors: Dr. Christoph Sprenger, Dr. Si Liu, Prof. David Basin", "Information Security Group"]
     },
     {
       "name": "Master’s Semester Project, ETH Zurich",
       "summary": "Modular Reasoning about Distributed Systems in Igloo",
-      "startDate": "February 2021",
-      "endDate": "June 2021",
-      "highlights": "Supervisors: Dr. Christoph Sprenger, Dr. Si Liu, Prof. David Basin"
+      "startDate": "Feb 2021",
+      "endDate": "Jun 2021",
+      "highlights": ["Supervisors: Dr. Christoph Sprenger, Dr. Si Liu, Prof. David Basin", "Information Security Group"]
     },
     {
       "name": "Bachelor’s Thesis, Sharif University of Technology",
       "summary": "Strategy Design for Expert Aggregation to Predict Stock Market",
-      "startDate": "July 2019",
-      "endDate": "December 2019",
-      "highlights": "Supervisor: Dr. MohammadAmin Fazli, Algorithms & Systems Design Group"
+      "startDate": "Jul 2019",
+      "endDate": "Dec 2019",
+      "highlights": ["Supervisor: Dr. MohammadAmin Fazli", "Algorithms & Systems Design Group"]
     }
   ],
   "work": [
@@ -121,25 +121,25 @@
       "name": "Max Planck Institute for Software Systems (MPI-SWS)",
       "position": "Research Intern",
       "url": "https://people.mpi-sws.org/~dreyer/research.html",
-      "startDate": "July 2019",
-      "endDate": "September 2019",
+      "startDate": "Jul 2019",
+      "endDate": "Sep 2019",
       "summary": "A Fine-Grained Concurrent Queue Verification in Iris/Coq Separation Logic Framework",
-      "highlights": ["Supervisor: Prof. Derek Dreyer, Foundations of Programming Group"]
+      "highlights": ["Supervisor: Prof. Derek Dreyer", "Foundations of Programming Group"]
     },
     {
       "name": "EPFL (´Ecole Polytechnique F´ed´erale de Lausanne)",
       "position": "Research Intern",
-      "startDate": "June 2018",
-      "endDate": "December 2018",
+      "startDate": "Jun 2018",
+      "endDate": "Dec 2018",
       "summary": "An Improved Materialization Algorithm for DBToaster",
-      "highlights": ["Supervisor: Prof. Amir Shaikhha, Data Analysis Theory and Applications Lab"]
+      "highlights": ["Supervisor: Prof. Amir Shaikhha", "Data Analysis Theory and Applications Lab (led by Prof. Christoph Koch)"]
     }
   ],
   "awards": [
     {
-      "title": "SNSF (Swiss National Science Foundation) grant’s Employee (PhD Candidate) for the Project “Formal Verification of Isolation Guarantees in Database Systems”",
+      "title": "SNSF grant’s Employee (PhD Candidate) for the Project “Formal Verification of Isolation Guarantees in Database Systems”",
       "date": "2024",
-      "awarder": "SNSF",
+      "awarder": "SNSF (Swiss National Science Foundation)",
       "url": "https://data.snf.ch/grants/grant/10003120"
     },
     {
@@ -157,7 +157,7 @@
       "date": "2019"
     },
     {
-      "title": "Ranked 81st in Iranian National University Entrance Exam for B.Sc degree",
+      "title": "Ranked 81st in Iranian National University Entrance Exam for BSc degree",
       "date": "2015",
       "summary": "Among about 300,000 students majoring in Mathematics & Physics program"
     }
@@ -233,11 +233,6 @@
   "references": [
     {
       "name": "Dr. Christoph Sprenger",
-      "icon": "fa-solid fa-laptop",
-      "reference": ""
-    },
-    {
-      "name": "Prof. David Basin",
       "icon": "fa-solid fa-laptop",
       "reference": ""
     }
