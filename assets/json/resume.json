@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Shabnam Ghasemirad",
-    "label": "PhD Student at Information Security Group, Deparment of Comuter Science, ETH Zurich",
+    "label": "PhD Student at Information Security Group, Department of Computer Science, ETH Zurich",
     "image": "",
     "email": "shabnam.ghasemirad <at> inf.ethz.ch",
     "phone": "",
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "name": "Distrbited Database Systems",
+      "name": "Distributed Database Systems",
       "icon": "fa-solid fa-database",
       "keywords": [
         "Concurrency Control Protocols",
@@ -118,6 +118,15 @@
   ],
   "work": [
     {
+      "name": "International Summer School Marktoberdorf",
+      "position": "Attendee",
+      "url": "https://events.model.in.tum.de/mod23/",
+      "startDate": "01-08-2023",
+      "endDate": "12-08-2023",
+      "summary": "Lectures on Safety and Security through Formal Verification",
+      "highlights": "Organized by TU Munich"
+    },
+    {
       "name": "Max Planck Institute for Software Systems (MPI-SWS)",
       "position": "Research Intern",
       "url": "https://people.mpi-sws.org/~dreyer/research.html",
@@ -150,16 +159,17 @@
     {
       "title": "Ranked 8th in Cumulative GPA in the Department of Computer Engineering",
       "date": "2019",
-      "summary": "Among about 130 B.Sc.students of the department, class of 2019 students"
+      "summary": "Among about 130 B.Sc.students of the department, class of 2019"
     },
     {
       "title": "Ranked 10th in National Student Olympiad for Computer Engineering",
-      "date": "2019"
+      "date": "2019",
+      "summary": "Among about 1,000 students"
     },
     {
       "title": "Ranked 81st in Iranian National University Entrance Exam for BSc degree",
       "date": "2015",
-      "summary": "Among about 300,000 students majoring in Mathematics & Physics program"
+      "summary": "Among about 300,000 students"
     }
   ],
   "languages": [
@@ -196,7 +206,7 @@
       ]
     },
     {
-      "name": "Distrbited Database Systems",
+      "name": "Database Systems",
       "level": "",
       "icon": "fa-solid fa-database",
       "keywords": [
@@ -233,6 +243,11 @@
   "references": [
     {
       "name": "Dr. Christoph Sprenger",
+      "icon": "fa-solid fa-laptop",
+      "reference": ""
+    },
+    {
+      "name": "Dr. Si Liu",
       "icon": "fa-solid fa-laptop",
       "reference": ""
     }
