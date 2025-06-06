@@ -83,13 +83,13 @@
     {
       "name": "VerIso: Verifiable Isolation Guarantees for Database Transactions",
       "publisher": "Proc. VLDB Endow., 2025",
-      "releaseDate": "2025-01",
+      "releaseDate": "January 2025",
       "authors": "Shabnam Ghasemirad, Si Liu, Christoph Sprenger, Luca Multazzu, and David Basin"
     },
     {
       "name": "Pushing the Limit: Verified Performance-Optimal Causally-Consistent Database Transactions",
       "publisher": "TACAS 2025, as Part of ETAPS 2025",
-      "releaseDate": "2024-12",
+      "releaseDate": "May 2025",
       "authors": "Shabnam Ghasemirad, Christoph Sprenger, Si Liu, Luca Multazzu, and David Basin"
     }
   ],
@@ -121,8 +121,7 @@
       "name": "International Summer School Marktoberdorf",
       "position": "Attendee",
       "url": "https://events.model.in.tum.de/mod23/",
-      "startDate": "2023-08-01",
-      "endDate": "2023-08-12",
+      "startDate": "August 2023",
       "summary": "Lectures on Safety and Security through Formal Verification",
       "highlights": "Organized by TU Munich"
     },
@@ -130,16 +129,16 @@
       "name": "Max Planck Institute for Software Systems (MPI-SWS)",
       "position": "Research Intern",
       "url": "https://people.mpi-sws.org/~dreyer/research.html",
-      "startDate": "2019-07",
-      "endDate": "2019-09",
+      "startDate": "Jul 2019",
+      "endDate": "Sep 2019",
       "summary": "A Fine-Grained Concurrent Queue Verification in Iris/Coq Separation Logic Framework",
       "highlights": ["Supervisor: Prof. Derek Dreyer", "Foundations of Programming Group"]
     },
     {
       "name": "EPFL (´Ecole Polytechnique F´ed´erale de Lausanne)",
       "position": "Research Intern",
-      "startDate": "2018-06",
-      "endDate": "2018-12",
+      "startDate": "Jun 2018",
+      "endDate": "Dec 2018",
       "summary": "An Improved Materialization Algorithm for DBToaster",
       "highlights": ["Supervisor: Prof. Amir Shaikhha", "Data Analysis Theory and Applications Lab (led by Prof. Christoph Koch)"]
     }
@@ -242,22 +241,14 @@
   ],
   "references": [
     {
-      "name": "Dr. Christoph Sprenger",
+      "name": "<a href=https://infsec.ethz.ch/people/csprenge.html>Dr. Christoph Sprenger</a>",
       "icon": "",
-      "institution": "ETH Zurich",
-      "department": "Department of Computer Science",
-      "email": "sprenger (at) inf.ethz.ch",
-      "phone": "+41 44 632 75 56",
-      "url": "https://infsec.ethz.ch/people/csprenge.html"
+      "reference": "Department of Computer Science, ETH Zurich"
     },
     {
-      "name": "Dr. Si Liu",
+      "name": "<a href=https://infsec.ethz.ch/people/detail.MjYxNTU2.TGlzdC8zMDg4LC0xMDQxNjk2MDky.html>Dr. Si Liu</a>",
       "icon": "",
-      "institution": "ETH Zurich",
-      "department": "Department of Computer Science",
-      "email": "si.liu (at) inf.ethz.ch",
-      "phone": "+41 44 632 78 09",
-      "url": "https://infsec.ethz.ch/people/detail.MjYxNTU2.TGlzdC8zMDg4LC0xMDQxNjk2MDky.html"
+      "reference": "Department of Computer Science, ETH Zurich"
     }
   ]
 }
